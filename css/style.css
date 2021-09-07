@@ -1,22 +1,22 @@
-body, h1, h2, p, ul, li, a{
+body, h1, h2, p, ul, li, a {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: 'Nunito', Helvetica, sans-serif;
     color: #222222;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;    
 }
@@ -25,12 +25,12 @@ img{
     box-sizing: border-box;
 }
 
-.superInfo-bg{
+.superInfo-bg {
     background: #122ab2;
     color: #ffff;
 }
 
-.superInfo{
+.superInfo {
     max-width: 960px;
     margin:  0 auto;
     display: flex;
@@ -39,10 +39,49 @@ img{
     padding-top: 10px;
 }
 
-.superInfo p , .superInfo a{
+.superInfo p , .superInfo a {
     margin: 0px 10px 10px 10px;
 }
 
 .superInfo a {
     color: #ffff;
+}
+
+.menu-bg{
+    background: #2c70ff;
+}
+
+.menu {
+    max-width: 960px;
+    margin:  0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #ffff;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover {
+    color: #122ab2;
 }
