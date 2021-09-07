@@ -301,3 +301,29 @@ img {
     font-weight: 1.4;
     color: #7c7c7c;
 }
+
+.newsletter {
+    background: #f7f7f7;
+    padding: 60px calc((100% - 960px))/2;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info {
+    flex: 1 1 260px;
+    margin: 0 10px;
+}
+
+.newsletter-info h1 {
+    font-size: 3em;
+    color: #a4a4a4;
+}
+
+.newsletter-info p {
+    font-size: 1.25em;
+    font-style: italic;
+    max-width: 230px;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+}
