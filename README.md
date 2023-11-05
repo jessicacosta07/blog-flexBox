@@ -1,6 +1,6 @@
 # Blog
 
-## Project developed in the flexbox course - Origamid
+## Project developed in the flexbox course
 
 ## Skills
 ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
